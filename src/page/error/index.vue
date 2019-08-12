@@ -1,0 +1,20 @@
+<template>
+    <div>
+        <h1>对不起，您没有访问权限，页面不方便见您...</h1>
+    </div>
+</template>
+<style scoped>
+    div{
+        width:100%;
+        height:100%;
+        background:#eee;
+    }
+    h1{
+        width:100%; 
+        height:100px;
+        line-height:100px;
+        font-size:30px;
+        color:red;
+        text-align:center;
+    }
+</style>

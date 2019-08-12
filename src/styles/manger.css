@@ -1,0 +1,47 @@
+.grade,.room,.student{
+    width:100%;
+    height:100%;
+    background:#eee;
+    overflow-x:auto;
+    overflow-y:auto;
+    padding:0 15px;
+}
+.grade>h2,.room>h2,.student>h2{
+    width:100%;
+    height:80px;
+    line-height:80px;
+    font-weight: normal;
+}
+.content{
+    width:100%;
+    background:#fff;
+    padding:10px 20px;
+    border-radius:10px;
+}
+
+.addGradeBtn{
+    margin:10px 0;
+}
+
+.gradeTable button,.studentTable button{
+    border:0;
+    color:#00f;
+    padding:0;
+    margin-right:15px;
+}
+
+.el-dialog__wrapper>div{
+    width:35%;
+}
+
+.el-select{
+    width:100%;
+}
+
+p>b{
+    color:red;
+}
+
+.dialog-footer{
+    text-align:center;
+}
